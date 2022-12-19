@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane prefHeight="500.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <Canvas fx:id="myCanvas" height="279.0" layoutX="1.0" layoutY="214.0" onMouseClicked="#OnMouseClickCanvas" width="445.0" />
+      <ListView fx:id="listViewShape" layoutX="14.0" layoutY="32.0" prefHeight="182.0" prefWidth="125.0" />
+      <ListView fx:id="listViewEffect" fixedCellSize="0.0" layoutX="158.0" layoutY="32.0" prefHeight="182.0" prefWidth="125.0" />
+      <Label layoutX="302.0" layoutY="14.0" text="Выберите цвет фигуры:" />
+      <ColorPicker fx:id="colorPickerShape" layoutX="304.0" layoutY="31.0">
+         <value>
+            <Color red="0.20000000298023224" blue="1.0" />
+         </value></ColorPicker>
+      <Label layoutX="304.0" layoutY="69.0" text="Выберите цвет контура:" />
+      <ColorPicker fx:id="colorPickerStroke" layoutX="304.0" layoutY="86.0" prefHeight="25.0" prefWidth="125.0">
+         <value>
+            <Color red="1.0" />
+         </value></ColorPicker>
+      <Label layoutX="297.0" layoutY="123.0" text="Введите толщину контура:" />
+      <TextField fx:id="tFStrokeWidth" layoutX="304.0" layoutY="140.0" prefHeight="25.0" prefWidth="125.0" />
+      <Button fx:id="btnClear" layoutX="304.0" layoutY="177.0" mnemonicParsing="false" onAction="#OnBtnClear" prefHeight="37.0" prefWidth="125.0" text="ОЧИСТИТЬ" />
+      <Label layoutX="53.0" layoutY="14.0" text="ФИГУРЫ" />
+      <Label layoutX="194.0" layoutY="14.0" text="ЭФФЕКТЫ" />
+   </children>
+</AnchorPane>
