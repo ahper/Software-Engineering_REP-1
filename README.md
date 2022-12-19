@@ -47,13 +47,18 @@ _____
 1. Скачать папку JavaFX с основной ветки main
 ![1](https://user-images.githubusercontent.com/120776560/208496282-715be327-5e02-461e-8228-3794d5bd7166.jpg)
 
+
 2. В IDE нажать на пункт *File* и выбрать *Project Structure...*
-![2](https://user-images.githubusercontent.com/120776560/208496325-2c2f4c67-c26c-4b5a-87e5-14765373d7ff.jpg)
+![2](https://user-images.githubusercontent.com/120776560/208496735-8fddba6a-1215-4b16-b406-2b4298188353.jpg)
+
 
 3. Далее выбрать пункт *Libraries*, нажать на значок **+** *Java*
-![3](https://user-images.githubusercontent.com/120776560/208496358-f5866a1f-0d4f-4eff-bf84-86c880856692.jpg)
+![3](https://user-images.githubusercontent.com/120776560/208496874-3982c905-98bf-49ac-8313-e829dedb8ea8.jpg)
+
 
 4. Открыть директорию со скаченной папкой JavaFX и выбрать папку *lib*
+![4](https://user-images.githubusercontent.com/120776560/208496630-81bfef9c-f015-4171-95a3-16d3b19aadac.jpg)
+
 
 5. После нажать кнопку *OK* и дождаться установки 
 
